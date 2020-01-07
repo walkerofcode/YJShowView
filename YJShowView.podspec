@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 自己用的view
                        DESC
 
-  s.homepage         = 'https://github.com/344403905@qq.com/YJShowView'
+  s.homepage         = 'https://github.com/walkerofcode/YJShowView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '344403905@qq.com' => 'alen20160902@gmail.com' }
-  s.source           = { :git => 'https://github.com/344403905@qq.com/YJShowView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/walkerofcode/YJShowView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
