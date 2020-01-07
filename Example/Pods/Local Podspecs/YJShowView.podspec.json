@@ -1,0 +1,22 @@
+{
+  "name": "YJShowView",
+  "version": "0.1.0",
+  "summary": "A short description of YJShowView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/344403905@qq.com/YJShowView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "344403905@qq.com": "alen20160902@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/344403905@qq.com/YJShowView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YJShowView/Classes/**/*"
+}

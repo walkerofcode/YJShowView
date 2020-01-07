@@ -1,0 +1,6 @@
+framework module Pods_YJShowView_Example {
+  umbrella header "Pods-YJShowView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
