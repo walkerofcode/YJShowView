@@ -3,20 +3,25 @@
   "version": "0.1.0",
   "summary": "A short description of YJShowView.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/344403905@qq.com/YJShowView",
+  "homepage": "https://github.com/walkerofcode/YJShowView.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "344403905@qq.com": "alen20160902@gmail.com"
+    "lixiangnan": "lixiangnanshou@163.com"
   },
   "source": {
-    "git": "https://github.com/344403905@qq.com/YJShowView.git",
+    "git": "https://github.com/walkerofcode/YJShowView.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YJShowView/Classes/**/*"
+  "source_files": "YJShowView/Classes/**/*",
+  "dependencies": {
+    "YWebView": [
+
+    ]
+  }
 }

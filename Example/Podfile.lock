@@ -1,42 +1,23 @@
 PODS:
-  - Expecta (1.0.6)
-  - "Expecta+Snapshots (3.1.1)":
-    - Expecta (~> 1.0)
-    - FBSnapshotTestCase/Core (~> 2.0)
-    - Specta (~> 1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - Specta (1.0.7)
-  - YJShowView (0.1.0)
+  - YJShowView (0.1.0):
+    - YWebView
+  - YWebView (0.12.0)
 
 DEPENDENCIES:
-  - Expecta
-  - "Expecta+Snapshots"
-  - FBSnapshotTestCase
-  - Specta
   - YJShowView (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Expecta
-    - "Expecta+Snapshots"
-    - FBSnapshotTestCase
-    - Specta
+  trunk:
+    - YWebView
 
 EXTERNAL SOURCES:
   YJShowView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
-  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  YJShowView: a61b8128f66053c95d492107932e5fe194ad9cb2
+  YJShowView: 77156f04d327e0322992f30548e936f36393a435
+  YWebView: 88b178e97b9d125205ff2761abcb665a7042e633
 
-PODFILE CHECKSUM: cb96846326076acd286bc2e30da73b91ba302ea7
+PODFILE CHECKSUM: 6358a81e0407678c7c332ab8059e081273c8a0b3
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.3
