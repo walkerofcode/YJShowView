@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <WebKit/WebKit.h>
 #import <YWebView/NSString+Cookie.h>
 #import <YWebView/YWebView.h>
 
