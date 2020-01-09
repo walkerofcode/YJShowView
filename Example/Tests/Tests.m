@@ -2,47 +2,34 @@
 //  YJShowViewTests.m
 //  YJShowViewTests
 //
-//  Created by 344403905@qq.com on 01/07/2020.
-//  Copyright (c) 2020 344403905@qq.com. All rights reserved.
+//  Created by lixiangnanshou@163.com on 01/09/2020.
+//  Copyright (c) 2020 lixiangnanshou@163.com. All rights reserved.
 //
 
-// https://github.com/Specta/Specta
+@import XCTest;
 
-SpecBegin(InitialSpecs)
+@interface Tests : XCTestCase
 
-describe(@"these will fail", ^{
+@end
 
-    it(@"can do maths", ^{
-        expect(1).to.equal(2);
-    });
+@implementation Tests
 
-    it(@"can read", ^{
-        expect(@"number").to.equal(@"string");
-    });
-    
-    it(@"will wait for 10 seconds and fail", ^{
-        waitUntil(^(DoneCallback done) {
-        
-        });
-    });
-});
+- (void)setUp
+{
+    [super setUp];
+    // Put setup code here. This method is called before the invocation of each test method in the class.
+}
 
-describe(@"these will pass", ^{
-    
-    it(@"can do maths", ^{
-        expect(1).beLessThan(23);
-    });
-    
-    it(@"can read", ^{
-        expect(@"team").toNot.contain(@"I");
-    });
-    
-    it(@"will wait and succeed", ^{
-        waitUntil(^(DoneCallback done) {
-            done();
-        });
-    });
-});
+- (void)tearDown
+{
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    [super tearDown];
+}
 
-SpecEnd
+- (void)testExample
+{
+    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+}
+
+@end
 

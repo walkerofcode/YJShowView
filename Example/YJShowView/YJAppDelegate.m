@@ -2,8 +2,8 @@
 //  YJAppDelegate.m
 //  YJShowView
 //
-//  Created by 344403905@qq.com on 01/07/2020.
-//  Copyright (c) 2020 344403905@qq.com. All rights reserved.
+//  Created by lixiangnanshou@163.com on 01/09/2020.
+//  Copyright (c) 2020 lixiangnanshou@163.com. All rights reserved.
 //
 
 #import "YJAppDelegate.h"
